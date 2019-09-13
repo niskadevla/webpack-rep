@@ -1,0 +1,30 @@
+{
+  "name": "learn_webpack",
+  "version": "1.0.0",
+  "description": "webpack project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "test": "node dist/bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/niskadevla/webpack-rep.git"
+  },
+  "keywords": [
+    "javascript.",
+    "js",
+    "webpack"
+  ],
+  "author": "Bielishev Denis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/niskadevla/webpack-rep/issues"
+  },
+  "homepage": "https://github.com/niskadevla/webpack-rep#readme",
+  "devDependencies": {
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.7"
+  }
+}
